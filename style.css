@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: red;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+input[type="text"], input[type="password"], button, a {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
